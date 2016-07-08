@@ -1,0 +1,103 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BUFFER_LENGTH	gradient_boosting.h	25;"	d
+GBDT_INTERIOR	gradient_boosting.h	15;"	d
+GBDT_TERMINAL	gradient_boosting.h	13;"	d
+GBDT_TOSPLIT	gradient_boosting.h	14;"	d
+LOG_ERROR_	gradient_boosting.h	29;"	d
+LOG_NOTICE_	gradient_boosting.h	31;"	d
+LOG_WARNING_	gradient_boosting.h	30;"	d
+NO_VALUE	gradient_boosting.h	27;"	d
+NUMERIC	gradient_boosting.cpp	1414;"	d	file:
+R_qsort_I	gradient_boosting.cpp	/^void R_qsort_I(double *v, int *I, int i, int j)$/;"	f
+SAMPLE_RATIO	gradient_boosting.h	23;"	d
+SAMPLE_TYPE	gradient_boosting.h	22;"	d
+_SO_API_	gbdt_rabbit.cpp	24;"	d	file:
+bestid	gradient_boosting.h	/^	int bestid; \/\/!< ¿¿¿¿¿feature ID$/;"	m	struct:__anon6
+bestsplit	gradient_boosting.h	/^ 	double bestsplit; \/\/!< ¿¿¿¿¿x¿$/;"	m	struct:__anon6
+bufset	gradient_boosting.h	/^} bufset; \/\/!< ¿¿¿¿¿$/;"	t	typeref:struct:__anon4
+critparent	gradient_boosting.h	/^ 	double critparent; \/\/!< ¿¿¿¿¿¿$/;"	m	struct:__anon5
+data_num	gradient_boosting.h	/^ 	int data_num;		\/\/!< ¿¿¿¿¿¿¿¿$/;"	m	struct:__anon2
+depth	gradient_boosting.h	/^ 	int* depth;			\/\/ ¿¿¿¿$/;"	m	struct:__anon1
+fea_num	gradient_boosting.h	/^ 	int fea_num;		\/\/!< feature¿¿¿$/;"	m	struct:__anon2
+fea_pool	gradient_boosting.h	/^	int* fea_pool; \/\/!< ¿¿feature ¿¿¿$/;"	m	struct:__anon4
+feature_average	gradient_boosting.h	/^	double* feature_average; \/\/!< Feature ¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon3
+fill_no_value_aver	gbdt_rabbit.cpp	/^  void fill_no_value_aver(gbdt_model_t* gbdt_model, double* x_test)$/;"	f
+fill_no_value_aver	gbdt_test.cpp	/^void fill_no_value_aver(gbdt_model_t* gbdt_model, double* x_test)$/;"	f
+fill_novalue_feature	gradient_boosting.cpp	/^int fill_novalue_feature(double* x, int fea_num, int data_num, double* faverage)$/;"	f
+filter_query	gbdt_rabbit.cpp	/^  _SO_API_(int) filter_query(char * query)$/;"	f
+free_model	gradient_boosting.cpp	/^int free_model(gbdt_model_t*& gbdt_model)$/;"	f
+fv	gradient_boosting.h	/^ 	double* fv; \/\/!< ¿¿¿¿¿¿¿buffer¿¿$/;"	m	struct:__anon4
+fvalue_list	gradient_boosting.h	/^ 	double* fvalue_list; \/\/!< ¿feature i¿¿¿¿¿¿¿ x_i$/;"	m	struct:__anon4
+gbdt_info_t	gradient_boosting.h	/^} gbdt_info_t; \/\/!< ¿¿¿¿¿¿¿¿¿¿$/;"	t	typeref:struct:__anon2
+gbdt_load_model	gradient_boosting.cpp	/^gbdt_model_t* gbdt_load_model(char* model_file)$/;"	f
+gbdt_load_reg_forest	gradient_boosting.cpp	/^int gbdt_load_reg_forest(FILE* model_fp, gbdt_model_t* gbdt_model)$/;"	f
+gbdt_max_depth	gradient_boosting.h	/^ 	int gbdt_max_depth; \/\/!< ¿¿¿¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon2
+gbdt_min_node_size	gradient_boosting.h	/^ 	int gbdt_min_node_size; \/\/!< ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon2
+gbdt_model_t	gradient_boosting.h	/^}gbdt_model_t; \/\/!< GBDT ¿¿¿¿¿¿$/;"	t	typeref:struct:__anon3
+gbdt_regression_predict	gradient_boosting.cpp	/^int gbdt_regression_predict(gbdt_model_t* gbdt_model, double *x_test, double& ypredict)$/;"	f
+gbdt_regression_train	gradient_boosting.cpp	/^gbdt_model_t* gbdt_regression_train(double *x_fea_value, double *y_result_score, gbdt_info_t infbox)$/;"	f
+gbdt_save_model	gradient_boosting.cpp	/^int gbdt_save_model(gbdt_model_t* gbdt_model, char* model_filename)$/;"	f
+gbdt_save_reg_forest	gradient_boosting.cpp	/^int gbdt_save_reg_forest(FILE* model_fp, gbdt_tree_t** reg_forest, gbdt_info_t infbox)$/;"	f
+gbdt_single_tree_estimation	gradient_boosting.cpp	/^int gbdt_single_tree_estimation($/;"	f
+gbdt_tree_node_split	gradient_boosting.cpp	/^int gbdt_tree_node_split( $/;"	f
+gbdt_tree_predict	gradient_boosting.cpp	/^int gbdt_tree_predict(double *x_test, gbdt_tree_t *gbdt_single_tree, double& ypred, double shrink)$/;"	f
+gbdt_tree_t	gradient_boosting.h	/^} gbdt_tree_t; \/\/!< ¿¿¿¿¿¿¿$/;"	t	typeref:struct:__anon1
+has_colon	gbdt_test.cpp	/^bool has_colon(string item)$/;"	f
+has_colon	gbdt_train.cpp	/^ bool has_colon(string item)$/;"	f
+hmap	gbdt_rabbit.cpp	/^ typedef map <string,string> hmap;\/\/\/@brief the rabbit result type define$/;"	t	file:
+index_b	gradient_boosting.h	/^	int index_b; \/\/!< ¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon5
+index_e	gradient_boosting.h	/^ 	int index_e; \/\/!< ¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon5
+info	gradient_boosting.h	/^	gbdt_info_t info; \/\/!< GBDT ¿¿¿¿¿$/;"	m	struct:__anon3
+init_info	gradient_boosting.cpp	/^int init_info(gbdt_info_t& infbox)$/;"	f
+items	gbdt_rabbit.cpp	/^   string* items;$/;"	m	struct:thread_para	file:
+load_gbdt_info	gradient_boosting.cpp	/^int load_gbdt_info(gbdt_info_t* pinfbox, FILE* model_fp)$/;"	f
+lson	gradient_boosting.h	/^ 	int* lson;			\/\/ ¿¿¿¿¿¿$/;"	m	struct:__anon1
+main	gbdt_test.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	gbdt_train.cpp	/^int main(int argc, char* argv[])$/;"	f
+main_thread_des	gbdt_rabbit.cpp	/^ _SO_API_(void) main_thread_des(void * arg)$/;"	f
+max_feature_label	gradient_boosting.cpp	/^int max_feature_label(string line)$/;"	f
+model_filename	gradient_boosting.h	/^ 	char model_filename[BUFFER_LENGTH]; \/\/!< ¿¿¿¿¿$/;"	m	struct:__anon2
+my_memset	gbdt_train.cpp	/^void my_memset(double* x, int count, int value)$/;"	f
+ndavg	gradient_boosting.h	/^ 	double* ndavg;		\/\/ !<¿¿¿¿¿¿¿¿$/;"	m	struct:__anon1
+ndcount	gradient_boosting.h	/^ 	int* ndcount;		\/\/ !<¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon1
+ndstart	gradient_boosting.h	/^ 	int* ndstart;		\/\/ !<¿¿¿¿¿index¿¿¿¿¿$/;"	m	struct:__anon1
+nodeinfo	gradient_boosting.h	/^} nodeinfo; \/\/!< ¿¿¿¿¿$/;"	t	typeref:struct:__anon5
+nodenum	gradient_boosting.h	/^ 	int nodenum; \/\/!< ¿¿¿¿¿¿¿¿$/;"	m	struct:__anon5
+nodesize	gradient_boosting.h	/^ 	int nodesize;		\/\/!<¿¿¿¿¿¿$/;"	m	struct:__anon1
+nodestatus	gradient_boosting.h	/^	int* nodestatus;	\/\/  ¿¿¿¿¿<split, internal, terminal>$/;"	m	struct:__anon1
+nodesum	gradient_boosting.h	/^ 	double nodesum; \/\/!< ¿¿¿¿¿¿¿y¿¿¿¿¿¿¿$/;"	m	struct:__anon5
+order_i	gradient_boosting.h	/^ 	int* order_i; \/\/!< ¿¿¿¿¿$/;"	m	struct:__anon4
+ori	gbdt_rabbit.cpp	/^   char ori[BUFFER_LENGTH];$/;"	m	struct:thread_para	file:
+pivot	gradient_boosting.h	/^ 	int pivot; \/\/!< ¿¿¿¿¿¿¿¿¿$/;"	m	struct:__anon6
+print_usage	gradient_boosting.cpp	/^int print_usage (FILE* stream, char* program_name)$/;"	f
+process_result	gbdt_rabbit.cpp	/^  _SO_API_(int) process_result(void * arg, hmap *result,void * selfswitch)$/;"	f
+qsort_Index	gradient_boosting.cpp	1413;"	d	file:
+rand_fea_num	gradient_boosting.h	/^ 	int rand_fea_num;	\/\/!< Feature¿¿¿¿¿$/;"	m	struct:__anon2
+read_conf_file	gradient_boosting.cpp	/^int read_conf_file(gbdt_info_t& infbox, int argc, char* argv[])$/;"	f
+read_train_file	gbdt_train.cpp	/^int read_train_file( $/;"	f
+reg_forest	gradient_boosting.h	/^	gbdt_tree_t** reg_forest; \/\/!< ¿¿¿¿$/;"	m	struct:__anon3
+rson	gradient_boosting.h	/^ 	int* rson;			\/\/ ¿¿¿¿¿¿$/;"	m	struct:__anon1
+sample_num	gradient_boosting.h	/^ 	int sample_num;		\/\/!< ¿¿¿¿¿¿¿¿$/;"	m	struct:__anon2
+save_gbdt_info	gradient_boosting.cpp	/^int save_gbdt_info(gbdt_info_t infbox, FILE* model_fp)$/;"	f
+shrink	gradient_boosting.h	/^ 	double shrink;		\/\/!< ¿¿¿$/;"	m	struct:__anon2
+splitid	gradient_boosting.h	/^ 	int* splitid;		\/\/ ¿¿¿¿¿split¿¿$/;"	m	struct:__anon1
+splitinfo	gradient_boosting.h	/^} splitinfo; \/\/!<¿¿¿¿¿$/;"	t	typeref:struct:__anon6
+splitline	gradient_boosting.cpp	/^int splitline(string line, string items[], int items_num, const char separator)$/;"	f
+splitvalue	gradient_boosting.h	/^ 	double* splitvalue; \/\/ !<split¿¿¿¿¿split value$/;"	m	struct:__anon1
+swap_int	gradient_boosting.h	20;"	d
+thread_para	gbdt_rabbit.cpp	/^ typedef struct thread_para$/;"	s	file:
+thread_para_t	gbdt_rabbit.cpp	/^ }thread_para_t;$/;"	t	typeref:struct:thread_para	file:
+thread_resource_des	gbdt_rabbit.cpp	/^  _SO_API_(void) thread_resource_des(void * arg)$/;"	f
+thread_resource_init	gbdt_rabbit.cpp	/^  _SO_API_(void) * thread_resource_init(int count , int arg[])$/;"	f
+thread_run	gbdt_rabbit.cpp	/^  _SO_API_(void *) thread_run(char* line,void * parg, $/;"	f
+train_filename	gradient_boosting.h	/^ 	char train_filename[BUFFER_LENGTH]; \/\/!< ¿¿¿¿¿¿¿¿$/;"	m	struct:__anon2
+tree_num	gradient_boosting.h	/^	int tree_num;		\/\/!< ¿¿¿¿¿¿$/;"	m	struct:__anon2
+uint32	gradient_boosting.h	19;"	d
+x_test	gbdt_rabbit.cpp	/^   double* x_test;$/;"	m	struct:thread_para	file:
+y_list	gradient_boosting.h	/^ 	double* y_list; \/\/!< ¿¿¿y¿¿¿$/;"	m	struct:__anon4
+y_reg_predict	gbdt_rabbit.cpp	/^   double y_reg_predict;$/;"	m	struct:thread_para	file:
